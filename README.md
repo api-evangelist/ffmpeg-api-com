@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-FFmpeg API provides a cloud-based service to process video and audio using FFmpeg via simple HTTP endpoints. Developers can upload media files, configure processing options, and retrieve results without managing FFmpeg installations. The platform offers file management, directory handling, and usage billing measured in GB‑seconds. It supports formats like MP4, WebM, GIF, and advanced filters, targeting rapid integration of media features into applications.
+FFmpeg API provides a cloud-based service to process video and audio files using FFmpeg commands via a simple REST API, enabling developers to convert, resize, extract audio, add watermarks, and perform AI-powered processing without managing FFmpeg installations.
 
-**Areas:** Video · Audio · MediaProcessing · CloudAPI · FFmpeg
+**Areas:** Media · Video · Audio · Cloud · FFmpeg · Company
 
 ## ffmpeg-api-com on APIs.io
 
@@ -74,7 +74,7 @@ Everything profiled for ffmpeg-api-com is published on APIs.io rather than in th
 
 ### APIs (1)
 
-- [ffmpeg-api-com F Fmpeg API](https://apis.io/apis/ffmpeg-api-com/ffmpeg-api-com-ffmpeg-api/) — For running FFmpeg tasks
+- [FFmpeg API](https://apis.io/apis/ffmpeg-api-com/ffmpeg-api/) — Cloud API for FFmpeg media processing.
 
 ### Published properties
 
@@ -85,6 +85,23 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 Which operations an agent can call, which act, and which need a human in the loop.
 
 - [Ffmpeg Api Com Agentic Access](https://apis.io/agentic-access/ffmpeg-api-com/ffmpeg-api-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AsyncJobResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-async-job-response/)
+- [CompressVideoResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-compress-video-response/)
+- [EndlessLoopResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-endless-loop-response/)
+- [JobStatusResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-job-status-response/)
+- [SplitAudioSegmentsResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-split-audio-segments-response/)
+- [SplitVideoResponse](https://apis.io/schemas/ffmpeg-api-com/ffmpeg-api-com-split-video-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ffmpeg Api Com Context](https://apis.io/jsonld/ffmpeg-api-com/ffmpeg-api-com-context/)
 
 #### Governance rules (1)
 
@@ -99,6 +116,18 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Ffmpeg Api Com Authentication](https://apis.io/security/ffmpeg-api-com/ffmpeg-api-com-authentication/)
 - [Ffmpeg Api Com Domain Security](https://apis.io/security/ffmpeg-api-com/ffmpeg-api-com-domain-security/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ffmpeg Api Com Scopes](https://apis.io/scopes/ffmpeg-api-com/ffmpeg-api-com-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ffmpeg Api Com Rate Limits](https://apis.io/rate-limits/ffmpeg-api-com/ffmpeg-api-com-rate-limits/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
@@ -106,25 +135,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 - [Website](https://ffmpeg-api.com/)
 - [Documentation](https://ffmpeg-api.com/docs)
 - [Getting started](https://ffmpeg-api.com/docs/quickstart)
-- [API reference](https://ffmpeg-api.com/docs/reference)
+- [API reference](https://ffmpeg-api.com/docs)
 - [Pricing](https://ffmpeg-api.com/pricing)
 - [Terms of service](https://ffmpeg-api.com/terms)
 - [Privacy policy](https://ffmpeg-api.com/privacy)
 
 ## API Evangelist rating
 
-**Kin Score 41.8** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 52.1** — developing · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
-| Discoverability | 62.5 |
-| Contract quality | 36.7 |
+| Discoverability | 65.0 |
+| Contract quality | 66.3 |
 | Contract governance | 79.1 |
-| Operational transparency | 7.9 |
-| Developer ergonomics | 40.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 51.7 |
 | Access clarity | 31.6 |
 
-**Agent readiness 42.5** — agent-ready (gated down from agent-native)
+**Agent readiness 58.7** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -134,11 +163,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | MCP Server | documented (partial credit) |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -150,7 +179,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ffmpeg-api-com/](https://apis.io/providers/ffmpeg-api-com/).
 
